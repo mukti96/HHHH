@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1680px;
+    margin: 0 auto;
+}
+.h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+ul li{
+	list-style: none;
+}
+/* headerSection */
+.headerSection {
+	background-color: #22c3a3;
+	padding: 20px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a {
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul {
+	text-align: right;
+}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu ul li a {
+	font-size: 20px;
+	display: inline-block;
+	color: white;
+	transition: .4s;
+	padding: 0 20px;
+}
+.menu ul li a:hover{
+	color: #000;
+}
+
+/* heroSection */
+.heroSection{
+	background-image: url("./header-bg01.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px 0;
+	text-align: center;
+}
+.hero{}
+.hero h4{}
+.hero h2{}
+.btn {
+	padding: 12px 30px;
+	border: 1px solid white;
+	display: inline-block;
+	margin-top: 20px;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+.myIcon {
+	font-size: 23px;
+	margin-right: 10px;
+}
+/* singleService */
+.title{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.title h2{
+	
+}
+.title p{
+
+}
+.serviceSection{
+	padding: 100px 0;
+}
+.singleService{
+	float: left;
+	width: 23%;
+	text-align: center;
+	margin: 0 15px;
+}
+/* aboutSection */
+.aboutSection{
+	padding: 100px 0;
+	border-top: 1px solid red;
+}
+.aboutImg{
+	width: 44%;
+	float: left;
+	margin-right: 1%;
+}
+.aboutText{
+	width: 54%;
+	float: right;
+	margin-left: 1%;
+}
+.aboutImg img{
+	width: 100%;
+	height: auto;
+}
+.aboutSingleText{
+	margin-bottom: 30px;
+}
+
+/* Contact */
+.contactSection{
+	text-align: center;
+	padding: 100px 0;
+	background-color: #f5f5f5;
+}
+.singleContact{
+	width: 32%;
+	float: left;
+}
+/* footerSection */
+.footerSection{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer{}
+.footer p {
+	font-size: 17px;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a {
+	display: inline-block;
+	background: blue;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 20px;
+	padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+

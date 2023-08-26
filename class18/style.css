@@ -1,0 +1,148 @@
+a{
+	text-decoration: none;
+}
+
+/* headerSection */
+.headerSection{
+	background-color: black;
+	padding: ;
+}
+.logo{}
+.logo img{
+	width: 100%;
+}
+.menu{
+
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	position: relative;
+}
+.menu ul li:first-child a{
+    color: rgb(224, 148, 15);
+  }
+.menu ul li::after{
+	content: "";
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0;
+	height: 2px;
+	background-color: chocolate;
+	transition: .5s;
+}
+.menu ul li:hover::after{
+	width: 100%;
+}
+.fa-solid.fa-caret-down {
+	color: white;
+}
+.menu ul li a{
+	display: inline-block;
+	color: white;
+	transition: .4s;
+	padding: 10px 24px;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.menu ul li a:hover{
+	color: rgb(170, 105, 8);
+}
+.menu ul li ul {
+	width: 150px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	padding: 0;
+	transform: scaleY(0);
+	transition: .4s;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+	transform-origin: top center;
+	z-index: 99;
+	transition: .4s;
+}
+.menu ul li ul li{
+	display: block;
+}
+.menu ul li ul li a{
+	display: block;
+	color: black;
+}
+.menu ul li ul li:hover a{
+	display: block;
+	color: black;
+	background-color: rgb(55, 51, 51);
+	color: aliceblue;
+}
+.menu ul li ul li::after{
+	bottom: 0;
+}
+
+
+/* serviceSection */
+.serviceSection{
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+.singleService{
+	background-color: white;
+	padding: 20px;
+	transition: .4s;
+	text-align: center;
+}
+.singleService:hover {
+	background-color: #756d6d;
+}
+.singleService:hover .serImg{
+	transform: rotateY(360deg);
+	transition: .4s;
+}
+.singleService:hover .sbtn{
+	background-color: inherit;
+	border: 1px solid red;
+	transition: .4s;
+}
+.serImg{
+	padding: 40px;
+	border-radius: 50%;
+	transition: .4s;
+	margin: 3% 0;
+}
+.sbtn{
+	background-color: rgb(158, 89, 5);
+	color: white;
+	padding: 12px 25px;
+	display: inline-block;
+	border: 1px solid chocolate;
+}
+
+/* aboutSection */
+
+.aboutSection{
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+
+/* contactSection */
+.contactSection{
+	background-image: url(./img/ia_200000022.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+}
+

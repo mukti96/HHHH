@@ -1,0 +1,31 @@
+
+.main{
+    width: 1050px;
+    margin: auto;
+}
+.hero{
+    background-color: black;
+    
+}
+.hero h1{
+    background-color: darkblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.hero sub{
+    color: white;
+}
+.hero span{
+    color: #cd5c5c;
+}
+.hero sup{
+    color: #73c8f2;
+}
+.hero sup{
+    color: #73c8f2;
+}
+.hero p{
+    background-color: greenyellow;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+}

@@ -1,0 +1,39 @@
+.one{
+    width: 640px;
+    background-color: red;
+    padding: 122px 22px;
+    font-size: 71px;
+    border-radius: 0 150px 150px 0;
+    margin-left: 5%;
+    text-align: center;
+}
+.two{
+    width: 640px;
+    background-color: aqua;
+    margin-left:52%;
+    padding: 122px 22px;
+    font-size: 71px;
+    text-align: center;
+    border-radius: 150px 0 0 150px;
+}
+.three{
+    width: 640px;
+    background-color: red;
+    padding: 122px 22px;
+    font-size: 71px;
+    border-radius: 0 150px 150px 0;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

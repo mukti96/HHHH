@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1680px;
+    margin: 0 auto;
+}
+.h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/* headerSection */
+.navbar-brand img{
+	width: 100px;
+}
+.headerSection{
+	background-color: red;
+}
+.myMenu li a{
+	color: white;
+	font-size: 20px;
+}
+/* heroSection */
+.heroSection{
+	background-image: url(./header-bg01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px;
+	position: relative;
+	z-index: 1;
+}
+.heroSection::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+/* team */
+.teamSection{
+	padding: 100px 0;
+}
+.singleTeam img{
+	width: 100%;
+}
+.singleTeam{
+	width: 70%;
+}
+
+/* aboutSection */
+.myImg img{
+	width: 100%;
+}
+
+
+/* Contact */
+
+
+.map iframe{
+	width: 600px;
+	height: 300px;
+}
+
+
+/* footerSection */
+.footerSection{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer{}
+.footer p {
+	font-size: 17px;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a {
+	display: inline-block;
+	background: blue;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 20px;
+	padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+

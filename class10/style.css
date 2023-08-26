@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1270px;
+    margin: 0 auto;
+}
+.headerSection {
+	background: red;
+	padding: 20px 0;
+    text-align: center;
+}
+.menu{}
+.menu ul{}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.menu ul li a {
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	background: yellow;
+	margin: 0 6px;
+}
+.menu ul li a:hover {
+	color: red;
+}
+.menu ul li ul{
+	width: 300px;
+	background-color: #000;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+.menu ul li ul li{
+	display: block;
+}
+.menu ul li ul li a{
+	display: block;
+}
+/* serviceSection */
+.serviceSection {
+	background: #ccc;
+	padding: 50px 0;
+	text-align: center;
+}
+.serviceColum{}
+.serviceColum h2 {
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	margin-bottom: 30px;
+	border-bottom: 5px dashed red;
+	padding-bottom: 20px;
+}
+.singleService {
+	width: 330px;
+	height: 280px;
+	display: inline-block;
+	background: red;
+	margin: 0 15px;
+	position: relative;
+	box-shadow: 1px 1px 14px #000;
+	transition: .5s;
+	border-radius: 43px;
+}
+.service {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px;
+}
+.service i {
+	font-size: 25px;
+	color: white;
+	margin-bottom: 20px;
+}
+.service h3 {
+	font-size: 22px;
+	color: white;
+}
+.service p {
+	font-size: 16px;
+	color: yellow;
+	margin-top: 30px;
+}
+.singleService:hover {
+	background: blue;
+}
+/* contactSection */
+.contactSection {
+	background: red;
+	text-align: center;
+}
+.contact{
+   position: relative;
+   height: 400px;
+}
+.one {
+	width: 130px;
+	height: 130px;
+	background: white;
+	border-radius: 50%;
+	border: 4px dashed green;
+	position: absolute;
+	top: 30%;
+}
+.two {
+	width: 130px;
+	height: 130px;
+	background: white;
+	border-radius: 50%;
+	border: 4px dashed green;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+}
+.three {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 25%;
+	left: 45%;
+}
+.myImg {
+	width: 120px;
+	height: 120px;
+}
+.myImg img {
+	width: 100%;
+	height: 100%;
+	border: 5px solid green;
+	border-radius: 50%;
+    position: relative;
+}
+.myForm{
+    margin-top: 20px;
+}
+.text {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 255, 0.385);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	visibility: hidden;
+	opacity: 0;
+}
+.text h4{
+    margin-top: 40px;
+    font-size: 30px;
+    color: black;
+}
+.myImg:hover .text {
+    visibility: visible;
+    opacity: 1;
+    transition: 2s;
+}
+.four {
+	width: 130px;
+	height: 130px;
+	background: white;
+	border-radius: 50%;
+	border: 4px dashed green;
+	position: absolute;
+	top: 5%;
+	right: 25%;
+}
+.five {
+	width: 130px;
+	height: 130px;
+	background: white;
+	border-radius: 50%;
+	border: 4px dashed green;
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+
+
+
+
+

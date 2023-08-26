@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* headerSection */
+.menuLogo{
+    
+}
+.logo{
+    width: 10%;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 83%;
+    display: inline-block;
+    text-align: right;
+}
+.menu ul{}
+.menu ul li {
+	display: inline-block;
+    position: relative;
+}
+.menu ul li a {
+	margin: 0 20px;
+	display: inline-block;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #afabab;
+}
+.menu ul li:hover > a{
+    color: white;
+}
+.menu ul li ul {
+	width: 200px;
+	background-color: black;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	border-top: 5px solid blue;
+}
+.menu ul li:hover > ul{
+	visibility: visible;
+    opacity: 1;
+}
+.menu ul li ul li {
+    display: block;
+}
+.menu ul li ul li:hover > a{
+    border-bottom: 1px solid #afabab;
+    display: block;
+    background-color: blue;
+}
+.menu ul li ul li ul{
+    top: 0;
+    left: 100%;
+}
+
+.headerSection {
+    padding: 20px 0;
+	background-image: url(https://cutt.ly/TnBVIvt);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+    height: 500px;
+}
+.heroText h2{
+    margin-top: 20%;
+    margin-left: 40%;
+    position: relative;
+}
+.heroText h2::after {
+	position: absolute;
+	top: 0%;
+	left: -7%;
+	content: "\f10d";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+.heroText h2::before {
+	position: absolute;
+	top: 0;
+	right: 42%;
+	content: "\f10e";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+/* singleService */
+.serviceSection{
+   padding: 50px 0;
+}
+.serviceGrid{
+   text-align: center;
+}
+.singleService{
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;
+}
+.singleService ul li{
+    list-style: none;
+    position: relative;
+}
+.singleService ul li::before {
+	content: "\f560";
+	position: absolute;
+	top: 0;
+	left: 12%;
+	font-family: "font awesome 5 free";
+	font-weight: 700;
+}
+/* .btn {
+	background: red;
+	padding: 10px 24px;
+	display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.btn::before{
+	background: rgb(9, 255, 0);
+    position: absolute;
+    content: "";
+    transition: .4s;
+    z-index: -1;
+} */
+.btn1::before{
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+.btn1:hover::before{
+    width: 100%;
+}
+.btn2::before{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+}
+.btn2:hover::before{
+    height: 100%;
+}
+.btn3::before{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+}
+.btn3:hover::before{
+    width: 100%;
+}
+/* contact */
+
+.contact button {
+	text-align: center;
+	border: none;
+	background: #EF664D;
+	color: white;
+	padding: 6px 135px;
+	border-radius: 5px;
+	font-size: 22px;
+	display: block;
+	margin: auto;
+	box-shadow: 3px 2px 6px #000000bd;
+	position: relative;
+	z-index: 1;
+}
+.contact button::before {
+	content: " ";
+	background-color: #711b0b;
+	border-radius: 5px 0px 0px 5px;
+	position: absolute;
+	transition: .4s;
+	height: 100%;
+	width: 0%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.contact button:hover::before {
+	width: 50%;
+}
+
+.contact button::after {
+	content: " ";
+	background-color: #4e231b;
+	border-radius: 0px 5px 5px 0px;
+	position: absolute;
+	transition: .4s;
+	height: 100%;
+	width: 0%;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.contact button:hover::after {
+	width: 50%;
+}
+
+/* footerSection */
+.footerSection{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer{}
+.footer p {
+	font-size: 17px;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a {
+	display: inline-block;
+	background: blue;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 20px;
+	padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+

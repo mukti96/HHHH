@@ -1,0 +1,42 @@
+
+.headerSection{
+	background-color: rgba(26, 73, 71, 0.46);
+}
+
+/* myBredcum */
+.myBredcum{
+	padding: 30px 0;
+}
+.breadcrumb {
+	background: red;
+	padding: 12px 10px;
+	border-radius: 5px;
+}
+.carousel-item {
+	height: 400px;
+}
+.myAlert{
+	padding: 30px 0;
+}
+/* myPro */
+.myPro{
+	padding: 30px 0;
+}
+.progress {
+	margin-bottom: 20px;
+}
+/* myModal */
+.myModal{
+	padding: 30px 0;
+}
+
+/* mySpy */
+.mySpy{
+	padding: 30px 0;
+}
+.myNext{
+	padding: 60px 0;
+}
+
+
+

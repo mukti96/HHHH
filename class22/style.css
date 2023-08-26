@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.headerArea{
+    background-color: black;
+}
+.logoMenu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.allDesign{
+    display: flex;
+    justify-content: space-between;
+}
+.mainContent{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 70%;
+}
+.designPart1{
+    display: flex;
+}
+.textStart{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    border: 1px solid green;
+    margin: auto;
+    align-items: flex-start;
+}
+.textCenter{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    margin: auto;
+    align-items: center;
+}
+.textEnd{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    border: 1px solid green;
+    margin: auto;
+    align-items: flex-end;
+}
+.item1{
+    width: 80px;
+    height: 70px;
+    background-color: brown;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.item2{
+    width: 80px;
+    height: 70px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item3{
+    width: 80px;
+    height: 70px;
+    background-color: brown;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.gitem{
+    display: flex;
+    border: 1px solid red;
+    margin: 0 20px;
+    flex-grow: 0;
+    flex: 1;
+}
+.growItem{
+    flex-grow: 2;
+}
+.designPart2{
+    display: flex;
+    margin: 20px 0;
+}
+.designPart3{
+    display: flex;
+}
+.Litem{
+    border: 1px solid red;
+    margin: 0 20px;
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    align-items: flex-start;
+}
+.Litem1{
+    display: flex;
+    justify-content: space-between;
+}
+.flx-btn{
+    padding: 10px;
+    background-color: red;
+    border: 1px solid green;
+}
+.Litem2{
+    flex-wrap: wrap;
+}
+.Litem3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcen{
+    align-self: center;
+}
+.fend{
+    align-self: flex-end;
+}
+.sidebar{
+    background-color: antiquewhite;
+    width: 30%;
+}

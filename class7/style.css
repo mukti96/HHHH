@@ -1,0 +1,119 @@
+.menu{
+    background-color: rgb(6, 6, 55);
+}
+.one{
+    width: 600px;
+    background-color: red;
+}
+.one {
+	width: 600px;
+	background-color: red;
+	padding: 50px 60px;
+	text-align: center;
+	margin: 30px 0;
+	border-radius: 0 50px 50px 0;
+	border-left: 4px solid green;
+	box-shadow: 0px 1px 8px #000;
+}
+.two {
+	width: 600px;
+	background-color: rgb(4, 255, 0);
+	padding: 50px 60px;
+	margin: 30px 0 30px 695px;
+    text-align: right;
+	border-radius: 50px 0 0 50px;
+	border-left: 4px solid green;
+	box-shadow: 0px 1px 8px #000;
+}
+.allFlag{
+    background-color: #4d687a;
+    padding: 100px 0;
+    margin: 100px 0;
+}
+.bangladesh{
+    width: 350px;
+    height: 200px;
+    background-color: green;
+    margin: 100px auto;
+    text-align: center;
+}
+.bangladeshRound {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.england {
+	background: #fff;
+	width: 350px;
+	height: 200px;
+	margin: 100px auto;
+	text-align: center;
+}
+.englandLine1 {
+	background: red;
+	width: 350px;
+	height: 30px;
+	margin-top: 90px;
+	display: inline-block;
+}
+.englandLine2 {
+	width: 30px;
+	height: 200px;
+	background: red;
+	margin-left: 274px;
+	margin-top: -125px;
+	display: inline-block;
+}
+.england h5{
+    margin-top: 20px;
+}
+
+.japan{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid #000;
+}
+.japanRound {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.germany {
+	width: 350px;
+	height: 200px;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+.germanyLine1 {
+	width: 350px;
+	height: 66px;
+	background: red;
+}
+.germanyLine2 {
+	width: 350px;
+	height: 66px;
+	background: rgb(0, 38, 255);
+	margin: 1px 0;
+}
+.germanyLine3 {
+	width: 350px;
+	height: 66px;
+	background: rgb(0, 255, 42);
+}
+
+
+

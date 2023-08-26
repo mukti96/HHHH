@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1680px;
+    margin: 0 auto;
+}
+.h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/* headerSection */
+.headerSection{
+	text-align: center;
+	padding: 20px 0;
+}
+.menu{}
+.menu ul{}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu ul li a {
+	padding: 20px;
+	background: red;
+	display: inline-block;
+	color: white;
+	transition: .4s;
+	position: relative;
+}
+.menu ul li a:hover{
+	background-color: white;
+	color: #000;
+}
+.menu ul li a::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 4px;
+	background-color: black;
+	transition: .4s;
+}
+.menu ul li a:hover::after{
+	width: 100%;
+}
+
+
+
+/* heroSection */
+.heroSection{
+	background-color: aqua;
+	padding: 50px 0;
+	text-align: center;
+}
+.hero{}
+.hero h4{}
+.hero h2{}
+.hero a{}
+.btn {
+	background: red;
+	padding: 10px 40px;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	z-index: 1;
+}
+.btn::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: black;
+	z-index: -1;
+	transition: .4s;
+}
+.btn:hover::before{
+	width: 100%;
+}
+/* gallery */
+.gallerySection{
+	padding: 60px 0;
+}
+.imgBox1 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	/* position: relative; */
+}
+.imgBox2 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	/* position: relative; */
+}
+.imgBox3 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	/* position: relative; */
+}
+.imgBox4 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	/* position: relative; */
+}
+.imgBox5 {
+	width: 23%;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	/* position: relative; */
+}
+.imgInner img{
+	width: 100%;
+	transition: .4s;
+}
+.imgBox1:hover img{
+	transform: rotate(360deg) scale(1.2);
+}
+.imgBox2:hover img{
+	transform: rotate(30deg) scale(1.2);
+}
+.imgBox3:hover img{
+	transform: rotate(-30deg) scale(1.2);
+}
+.imgBox4:hover img{
+	transform: rotate(5deg) scale(1.2);
+}
+.imgBox5:hover img{
+	transform: rotate(-5deg) scale(1.2);
+}
+  
+
+
+
+/* contact */
+.step {
+	width: 5%;
+	margin: 0 12%;
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 10px;
+	transition: .4s;
+}
+.stepSection {
+	text-align: center;
+	padding: 50px 0;
+}
+.step1{
+	transform: rotate(-45deg);
+}
+.step1:hover{
+	transform: scale(1.2);
+}
+.step2:hover{
+	transform: scale(1.2);
+}
+.step3:hover{
+	transform: scale(1.2);
+}
+.step3{
+	transform: rotate(45deg);
+}
+/* footerSection */
+.footerSection{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer{}
+.footer p {
+	font-size: 17px;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a {
+	display: inline-block;
+	background: blue;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	font-size: 20px;
+	padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
